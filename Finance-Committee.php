@@ -1,0 +1,191 @@
+<?php
+$pagename= "Finance Committee";
+
+include('active-class-adder.php');
+
+
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title><?php echo $pagename; ?> - MRIET</title>
+<?php include('header.php'); ?>
+
+<div class="container-fluid">
+<div class="row custom-row-grey-color">
+	<div class="col-md-4">
+	<h2><?php echo $pagename; ?></h2>
+	</div>
+	<div class="col-md-8 breadcrumb-fix">
+		<ul class="breadcrumb" style="margin-bottom: 5px;">
+			You are here:
+		  <li><a href="javascript:void(0)">Home</a></li>
+		  <li><a href="javascript:void(0)">About Us</a></li>
+		  <li class="active"><?php echo $pagename; ?></li>
+		</ul>
+	</div>
+</div>
+	<div class="row">
+		<div class="col-md-4">
+		<div class="panel panel-info">
+			<div class="panel-heading">
+				<b><div class="text-center">About Us</div></b>
+			</div>
+			<div class="panel-body">
+			<?php listItemsActiveClassAdder($pagename); ?>
+			</div>
+		</div>
+			
+		</div>
+
+		<div class="col-md-8">
+
+		<center><h3><b>Constitution of Finance Committee</b></h3></center>
+		<h4><b>Finance Committee</b> is formed with the following members.<br>
+
+<b>Composition</b></h4>
+
+		<table class="table table-striped table-hover " border="1" bordercolor="red">
+  <thead>
+  <tr bgcolor=green>
+    <th>Sl.No</th>
+    <th>Name</th>
+    <th>Department</th>
+    <th>Designation</th>
+    <th>Category</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>1.</td>
+    <td>Dr M Ashok</td>
+    <td></td>
+    <td>Principal</td>
+    <td>Chairman</td>
+  </tr>
+  <tr>
+    <td>2.</td>
+    <td>Dr.M.Narsing Yadav</td>
+    <td>ECE</td>
+    <td>HOD</td>
+     <td>Member</td>
+  </tr>
+  <tr>
+    <td>3.</td>
+    <td>Mr. D. Kalyan Kumar</td>
+    <td>CSE</td>
+    <td>HOD</td>
+    <td>Member</td>
+  </tr>
+ <tr>
+    <td>4.</td>
+    <td>Dr K Hanumaji</td>
+    <td>EEE</td>
+    <td>HOD</td>
+    <td>Member</td>
+  </tr>
+ <tr>
+    <td>5.</td>
+    <td>P.Anjani</td>
+    <td></td>
+    <td>Chief Finance Officer</td>
+    <td>Secretary</td>
+  </tr>
+  <tr>
+    <td>6.</td>
+    <td>Mrs.K.Satyavathi</td>
+    <td>ECE</td>
+    <td>Assistant Professor</td>
+    <td>Member</td>
+  </tr>
+  <tr>
+    <td>7.</td>
+    <td>Mrs. R.Anupama</td>
+    <td>EEE</td>
+    <td>Assistant Professor</td>
+    <td>Member</td>
+  </tr>
+ <tr>
+    <td>8.</td>
+    <td>Mrs. B. Asha Kiran</td>
+    <td>EEE</td>
+    <td>Assistant Professor</td>
+     <td>Member</td>
+  </tr>
+ <tr>
+    <td>9.</td>
+    <td>D.Balunaik</td>
+    <td>ECE</td>
+    <td>Assistant Professor</td>
+    <td>Member</td>
+  </tr>
+  <tr>
+    <td>10.</td>
+    <td>A.Mahender</td>
+    <td>CSE</td>
+    <td>Assistant Professor</td>
+    <td>Member</td>
+  </tr>
+ <tr>
+    <td>11.</td>
+    <td>Mrs. Ruth Sunitha</td>
+    <td>MBA</td>
+    <td>HOD</td>
+     <td>Member</td>
+  </tr>
+  </tbody>
+</table>
+
+
+
+							
+										<h4><b><u>FUNCTINS OF COLLEGE FINACE COMMITTEE:</u></b></h4><br>
+										
+<p style="text-align:justify">							i.	The most important and the Main function of the college finance Committee will be to   ensure that , proper financial planning is made at the beginning of the Academic year, Funds are obtained, and put to correct use as planned and approved by the Management.<br>
+						        ii.	In this task, the finance committee will in the first instance will explore and list out all the sources of Revenue to the College.<br>
+							iii.	Then they will identify all the expenditure of RECURRING NATURE and cater for the same.<br>
+							iv.	Next they shall seek the information regarding the various requirements of   the departments and offices for the ensuing Academic year.<br>
+							v.	Analyze the same threadbare and see as to whether the demands are realistic..<br>
+						        vi.	Then ask for quotations from reliable firms.<br>
+													vii.	Workout the total cost involved and recommends the same to the management.<br>
+
+viii.	They shall also prepare the Departmental as well as the Overall budget for the college.<br>
+
+ix.	Prepare the budget estimates get the clearance for m the Principal / Director and put up the same to the management.<br>
+
+x.	Cater for the Price Escalation factor and Governmental taxes etc.<br>
+
+xi.	After approval from the Management and allocation of the funds make and equal / proportionate distribution among the various departments / offices in the same ratio or any other ration as felt appropriate.<br>
+
+xii.	Ensure that the proposals for procurement are in corroboration with those projected earlier at the time of preparation of Estimates.<br>
+
+xiii.	Maintain budgetary control registers to keep track expenditure –Vis –A Vis the allocations.<br>
+
+xiv.	In case they find that, the allocations in one particular area have fallen short or not likely to meet the requirement, then prepare, revised estimates, get them cleared  after deliberations, and then put up to the Management.<br>
+
+xv.	At the end of the Academic year / financial Year, prepare the final accounts and present to the Director and the management as well as the Governing Body of the College.  <br>
+
+<br>
+									</p>	<br><br>	
+
+
+<h4><b><u>Guidelines for the Committee:</u></b></h4><br>
+										
+<p style="text-align:justify">							1.	The Committee will function as per the guidelines issued by the Chairman/Principal.<br>
+						        2.	The committee shall meet at least twice a month or whenever it is required or called for by the Chair to discuss.<br>
+							3.	The term of Office of the committee will be for the academic year 2017-18.<br>
+							4.	All the decisions taken by committee should put up to the principal for approval.<br>
+							5.	The Member Secretary and Members shall maintain all the Information related to the Committee.<br>
+						     Minutes of various meetings shall be reduced to writing by the Member Secretary and put up to Principal/Chairman for perusal and approval. They will also be signed by all the members.<br>
+													
+									</p>	<br><br>	
+			
+		</div>
+
+		</div>
+
+
+
+
+<?php include('footer.php'); ?>
